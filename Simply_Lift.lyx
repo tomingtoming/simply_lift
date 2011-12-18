@@ -148,6 +148,12 @@ Simply Lift
 
 \begin_layout Author
 David Pollak
+\begin_inset Newline newline
+\end_inset
+
+
+\lang japanese
+デイビッド・ポラック
 \end_layout
 
 \begin_layout Date
@@ -162,6 +168,30 @@ Copyright © 2010-2011 by David Pollak
 
 This document is licensed Creative Commons Attribution, Non Commercial,
  No Derivatives: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://creativecommons.org/licenses/by-nc-nd/3.0/
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+Copyright © 2010-2011 by David Pollak
+\begin_inset Newline newline
+\end_inset
+
+
+\lang japanese
+このドキュメントはクリエイティブ・コモンズ・ライセンス 表示—非営利—改変禁止 3.0 のもとでライセンスされています。:
+\lang english
+ 
 \begin_inset Flex URL
 status open
 
@@ -230,6 +260,10 @@ The Lift Web Framework
 
 \begin_layout Chapter
 Introduction
+\begin_inset Newline newline
+\end_inset
+
+導入
 \end_layout
 
 \begin_layout Standard
@@ -242,6 +276,22 @@ The Lift Web Framework provides web application developers tools to make
  I have been writing Lift and Scala for 4 years, and even I learn new things
  about the language and the framework on a weekly basis.
  Please consider Lift an path and an exploration, rather than an end point.
+\end_layout
+
+\begin_layout Standard
+
+\lang japanese
+\begin_inset Quotes eld
+\end_inset
+
+The Lift Web Framework
+\begin_inset Quotes erd
+\end_inset
+
+は、他のどのＷＥＢフレームワークに比べても簡単に、セキュアで、複雑に相互作用し、スケーラブルなＷＥＢアプリケーションを作成する為の開発者用ツール群です。あなたが
+第I部を読み終わった後には、Liftの基本概念を理解して、Liftのアプリケーションを作成できりょうになっているはずです。しかし何より、練習が大切です。私はLi
+ftとScalaを４年書いていますが、それでも毎週のように言語やフレームワークについて新しいことを学んでいます。どうかLiftを終着点ではなく、探索の通過点とし
+て下さい。
 \end_layout
 
 \begin_layout Standard
@@ -262,6 +312,20 @@ reference "cha:From-MVC"
 \end_inset
 
 ).
+\end_layout
+
+\begin_layout Standard
+
+\lang japanese
+「デイビッド、それ以上言わなくていい。俺はRails|Spring|Struts|Djangoを知ってるから、Liftを超高速で始めたいんだ。」
+ こちらをご覧ください。
+\begin_inset CommandInset ref
+LatexCommand vref
+reference "cha:From-MVC"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -335,6 +399,67 @@ target "http://exploring.liftweb.net/"
 \end_layout
 
 \begin_layout Standard
+
+\lang japanese
+Liftはプログラミング言語
+\begin_inset CommandInset href
+LatexCommand href
+name "Scala"
+target "http://scala-lang.org"
+
+\end_inset
+
+上で作られています。Scalaは
+\begin_inset CommandInset href
+LatexCommand href
+name "Java Virtual Machine"
+target "http://www.oracle.com/technetwork/java/index.html"
+
+\end_inset
+
+上で動作します。Liftのアプリケーションは通常
+\begin_inset CommandInset href
+LatexCommand href
+name "WAR"
+target "http://en.wikipedia.org/wiki/WAR_(Sun_file_format)"
+
+\end_inset
+
+ファイルとしてパッケージ化され、
+\begin_inset CommandInset href
+LatexCommand href
+name "J/EE Servlets"
+target "http://www.oracle.com/technetwork/java/index-jsp-135475.html"
+
+\end_inset
+
+又はサーブレット・フィルタとして動作します。この本では、あなたがLiftのＷＥＢアプリケーションを正しく作成する為に必要な基本概念を提供します。この本では、サー
+ブレット、サーブレット・コンテナー、Scala(1-6章
+\shape italic
+
+\begin_inset CommandInset href
+LatexCommand href
+name "Beginning Scala"
+target "http://apress.com/book/view/9781430219897"
+
+\end_inset
+
+がこの言語の良い基礎知識になります
+\shape default
+)、ビルドツール、エディタ、HTML及びJavaScriptを含むウェブ開発に関わる知識などを前提とします。さらに、この本ではデータ永続化は扱いません。Lift
+にはリレーショナル及び非リレーショナルなデータの永続化に関する追加のモジュールがあります。Liftではオブジェクトがどのようにアドレス空間上で存在しているか区別
+しません…。あなたが望むなら、Liftではどんな古いやり方でもすべてのオブジェクトを扱うことができます。多くの資料(
+\begin_inset CommandInset href
+LatexCommand href
+name "Exploring Lift"
+target "http://exploring.liftweb.net/"
+
+\end_inset
+
+を含む)がJVMからのデータ永続化に関して情報を補ってくれるはずです。
+\end_layout
+
+\begin_layout Standard
 Lift is different from most web frameworks and it's likely that Lift's differenc
 es will present a challenge and a friction if you are familiar with the
  MVC
@@ -368,6 +493,12 @@ This includes Ruby on Rails, Struts, Java Server Faces, Django, TurboGears,
  Please relax and work to understand Lift's differences...
  and see how you can make best use of Lift's features to build your web
  applications.
+\end_layout
+
+\begin_layout Standard
+
+\lang japanese
+Liftは他の多くのＷＥＢフレームワークとは異なります。
 \end_layout
 
 \begin_layout Standard
