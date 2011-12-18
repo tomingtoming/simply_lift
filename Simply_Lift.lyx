@@ -55,9 +55,9 @@ eqs-within-sections
 figs-within-sections
 \end_modules
 \maintain_unincluded_children false
-\language english
+\language japanese
 \language_package default
-\inputencoding auto
+\inputencoding default
 \fontencoding global
 \font_roman palatino
 \font_sans default
@@ -127,6 +127,8 @@ figs-within-sections
 \begin_body
 
 \begin_layout Standard
+
+\lang english
 \begin_inset ERT
 status open
 
@@ -143,10 +145,14 @@ frontmatter
 \end_layout
 
 \begin_layout Title
+
+\lang english
 Simply Lift
 \end_layout
 
 \begin_layout Author
+
+\lang english
 David Pollak
 \begin_inset Newline newline
 \end_inset
@@ -157,11 +163,15 @@ David Pollak
 \end_layout
 
 \begin_layout Date
+
+\lang english
 September 8, 2011
 \end_layout
 
 \begin_layout Standard
 \noindent
+
+\lang english
 Copyright © 2010-2011 by David Pollak
 \begin_inset Newline newline
 \end_inset
@@ -183,6 +193,8 @@ http://creativecommons.org/licenses/by-nc-nd/3.0/
 
 \begin_layout Standard
 \noindent
+
+\lang english
 Copyright © 2010-2011 by David Pollak
 \begin_inset Newline newline
 \end_inset
@@ -206,6 +218,8 @@ http://creativecommons.org/licenses/by-nc-nd/3.0/
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
 
@@ -215,6 +229,8 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset FloatList figure
 
 \end_inset
@@ -223,6 +239,8 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset ERT
 status open
 
@@ -239,6 +257,8 @@ lstlistoflistings
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset ERT
 status open
 
@@ -255,10 +275,14 @@ mainmatter
 \end_layout
 
 \begin_layout Part
+
+\lang english
 The Lift Web Framework
 \end_layout
 
 \begin_layout Chapter
+
+\lang english
 Introduction
 \begin_inset Newline newline
 \end_inset
@@ -267,6 +291,8 @@ Introduction
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The Lift Web Framework provides web application developers tools to make
  writing security, interacting, scalable web applications easier than with
  any other web framework.
@@ -279,8 +305,6 @@ The Lift Web Framework provides web application developers tools to make
 \end_layout
 
 \begin_layout Standard
-
-\lang japanese
 \begin_inset Quotes eld
 \end_inset
 
@@ -295,6 +319,8 @@ ftとScalaを４年書いていますが、それでも毎週のように言語�
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset Quotes eld
 \end_inset
 
@@ -315,8 +341,6 @@ reference "cha:From-MVC"
 \end_layout
 
 \begin_layout Standard
-
-\lang japanese
 「デイビッド、それ以上言わなくていい。俺はRails|Spring|Struts|Djangoを知ってるから、Liftを超高速で始めたいんだ。」
  こちらをご覧ください。
 \begin_inset CommandInset ref
@@ -329,6 +353,8 @@ reference "cha:From-MVC"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift is built on top of the 
 \begin_inset CommandInset href
 LatexCommand href
@@ -399,8 +425,6 @@ target "http://exploring.liftweb.net/"
 \end_layout
 
 \begin_layout Standard
-
-\lang japanese
 Liftはプログラミング言語
 \begin_inset CommandInset href
 LatexCommand href
@@ -460,6 +484,8 @@ target "http://exploring.liftweb.net/"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift is different from most web frameworks and it's likely that Lift's differenc
 es will present a challenge and a friction if you are familiar with the
  MVC
@@ -467,6 +493,8 @@ es will present a challenge and a friction if you are familiar with the
 status open
 
 \begin_layout Plain Layout
+
+\lang english
 MVC
 \end_layout
 
@@ -477,6 +505,8 @@ MVC
 status open
 
 \begin_layout Plain Layout
+
+\lang english
 This includes Ruby on Rails, Struts, Java Server Faces, Django, TurboGears,
  etc.
 \end_layout
@@ -496,12 +526,12 @@ This includes Ruby on Rails, Struts, Java Server Faces, Django, TurboGears,
 \end_layout
 
 \begin_layout Standard
-
-\lang japanese
 Liftは他の多くのＷＥＢフレームワークとは異なります。
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift creates abstractions that allow easier expression of business logic
  and then maps those abstractions to HTTP and HTML.
  This approach differs from traditional web frameworks which build abstractions
@@ -512,6 +542,8 @@ Lift creates abstractions that allow easier expression of business logic
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 I am a 
 \begin_inset Quotes eld
 \end_inset
@@ -529,6 +561,8 @@ concept learner.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Up to date versions of this book are available in PDF form at 
 \begin_inset Flex URL
 status collapsed
@@ -553,6 +587,8 @@ target "https://github.com/dpp/simply_lift"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 If you've got questions, feedback, or improvements to this document, please
  join the conversation on the 
 \begin_inset CommandInset href
@@ -566,6 +602,8 @@ target "http://groups.google.com/group/liftweb"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 I'm a 
 \begin_inset Quotes eld
 \end_inset
@@ -589,6 +627,8 @@ smack in the face
 \end_layout
 
 \begin_layout Chapter
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "cha:The-ubiquitous-Chat"
@@ -599,11 +639,15 @@ The ubiquitous Chat app
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Writing a multi-user chat application in Lift is super-simple and illustrates
  many of Lift's core concepts.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The Source Code can be found at 
 \begin_inset CommandInset href
 LatexCommand href
@@ -615,16 +659,22 @@ target "https://github.com/dpp/simply_lift/tree/master/chat"
 \end_layout
 
 \begin_layout Section
+
+\lang english
 The View
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 When writing a Lift app, it's often best to start off with the user interface...
  build what the user will see and then add behavior to the HTML page.
  So, let's look at the Lift template that will make up our chat application.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
 filename "chat/src/main/webapp/index.html"
@@ -636,6 +686,8 @@ lstparams "caption={index.html},language=xml"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 It's a valid HTML page, but there are some hinky looking class attributes.
  The first one is 
 \family typewriter
@@ -663,6 +715,8 @@ chrome
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Let's look at the 
 \family typewriter
 <div id="main">
@@ -706,6 +760,8 @@ reference "sec:Snippets"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Next, we define how we associate dynamic behavior with the list of chat
  elements: 
 \family typewriter
@@ -741,10 +797,14 @@ CometActor
 \end_layout
 
 \begin_layout Section
+
+\lang english
 The Chat Comet component
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The 
 \begin_inset CommandInset href
 LatexCommand href
@@ -770,6 +830,8 @@ Chat
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
 filename "chat/src/main/scala/code/comet/Chat.scala"
@@ -781,6 +843,8 @@ lstparams "caption={Chat.scala},label={Chat}"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The 
 \family typewriter
 Chat
@@ -794,11 +858,15 @@ ChatServer
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The private state, like any private state in prototypical object oriented
  code, is the state that defines the object's behavior.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 registerWith is a method that defines what component to register the Chat
  component with.
  Registration is a part of the Listener (or 
@@ -818,6 +886,8 @@ ChatServer
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The 
 \family typewriter
 lowPriority
@@ -844,6 +914,8 @@ Vector
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 We define how to 
 \family typewriter
 render
@@ -877,20 +949,28 @@ class
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 That's it for the Chat CometActor component.
 \end_layout
 
 \begin_layout Section
+
+\lang english
 The 
 \family typewriter
 ChatServer
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The ChatServer code is:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
 filename "chat/src/main/scala/code/comet/ChatServer.scala"
@@ -902,6 +982,8 @@ lstparams "caption={ChatServer.scala},label={ChatServer.scala}"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The 
 \family typewriter
 ChatServer
@@ -942,6 +1024,8 @@ Chat
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The ChatServer has private state, a 
 \family typewriter
 Vector[String]
@@ -955,6 +1039,8 @@ msgs
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The 
 \family typewriter
 createUpdate
@@ -972,6 +1058,8 @@ updateListeners()
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Finally, the 
 \family typewriter
 lowPriority
@@ -997,10 +1085,14 @@ Vector
 \end_layout
 
 \begin_layout Section
+
+\lang english
 User Input
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Let's go back to the view and see how the behavior is defined for adding
  lines to the chat.
 \end_layout
@@ -1008,6 +1100,7 @@ Let's go back to the view and see how the behavior is defined for adding
 \begin_layout Standard
 
 \family typewriter
+\lang english
 <form class="lift:form.ajax">
 \family default
  defines an input form and the 
@@ -1026,6 +1119,8 @@ reference "sec:Ajax"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Next, we define the input form element: 
 \family typewriter
 <input class="lift:ChatIn" id="chat_in"/>
@@ -1043,10 +1138,14 @@ ChatIn
 \end_layout
 
 \begin_layout Section
+
+\lang english
 Chat In
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The 
 \family typewriter
 ChatIn
@@ -1062,6 +1161,8 @@ reference "sec:Snippets"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
 filename "chat/src/main/scala/code/snippet/ChatIn.scala"
@@ -1073,6 +1174,8 @@ lstparams "caption={ChatIn.scala},label={ChatIn.scala}"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The code is very simple.
  The snippet is defined as a method that associates a function with form
  element submission, 
@@ -1087,6 +1190,8 @@ onSubmit
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The function sends the input as a message to the 
 \family typewriter
 ChatServer
@@ -1096,10 +1201,14 @@ ChatServer
 \end_layout
 
 \begin_layout Section
+
+\lang english
 Running it
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Running the application is easy.
  Make sure you've got Java 1.6 or better installed on your machine.
  Change directories into the 
@@ -1116,6 +1225,8 @@ sbt update ~jetty-run
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 You can point a couple of browsers to 
 \begin_inset Flex URL
 status collapsed
@@ -1131,6 +1242,8 @@ http://localhost:8080
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Oh, and for fun, try entering 
 \family typewriter
 <script>alert('I ownz your browser');<script>
@@ -1140,16 +1253,22 @@ Oh, and for fun, try entering
 \end_layout
 
 \begin_layout Section
+
+\lang english
 What you don't see
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Excluding imports and comments, there are about 20 lines of Scala code to
  implement a multi-threaded, multi-user chat application.
  That's not a lot.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The first thing that's missing is synchronization or other explicit forms
  of thread locking.
  The application takes advantage of Actors and immutable data structures,
@@ -1158,6 +1277,8 @@ The first thing that's missing is synchronization or other explicit forms
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The next thing that's missing is routing and controllers and other stuff
  that you might have to do to wire up Ajax calls and polling for server-side
  changes (long or otherwise).
@@ -1173,6 +1294,8 @@ reference "sec:Page-rewriting"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 We didn't do anything to explicitly to avoid cross-site scripting in our
  application.
  Because Lift takes advantage of Scala's strong typing and type safety (see
@@ -1197,12 +1320,16 @@ reference "sec:Security"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 This example shows many of Lift's strengths.
  Let's expand the application and see how Lift's strengths continue to support
  the development of the application.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand include
 filename "samples/snippet_and_sitemap/snippet_and_sitemap.lyx"
@@ -1213,6 +1340,8 @@ filename "samples/snippet_and_sitemap/snippet_and_sitemap.lyx"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand include
 filename "samples/forms/forms.lyx"
@@ -1223,6 +1352,8 @@ filename "samples/forms/forms.lyx"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand include
 filename "samples/http_rest/http_rest.lyx"
@@ -1233,6 +1364,8 @@ filename "samples/http_rest/http_rest.lyx"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand include
 filename "samples/shopwithme/wiring.lyx"
@@ -1243,10 +1376,14 @@ filename "samples/shopwithme/wiring.lyx"
 \end_layout
 
 \begin_layout Chapter
+
+\lang english
 Core Concepts
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand include
 filename "chapters/snippets.lyx"
@@ -1257,6 +1394,8 @@ filename "chapters/snippets.lyx"
 \end_layout
 
 \begin_layout Section
+
+\lang english
 Box/Option
 \begin_inset CommandInset label
 LatexCommand label
@@ -1268,6 +1407,8 @@ name "sec:Box/Option"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Scala has a ton of nice features.
  One of the features that I was slow to adopt, until Burak Emir gently reminded
  me a bunch of times, is "Options".
@@ -1278,6 +1419,8 @@ Scala has a ton of nice features.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -1328,11 +1471,15 @@ return "it failed"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Okay, so that's pseudo-code, but there are tons of operation, guard, operation,
  guard, blah blah constructs.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Further, null/nil are passed around as failures.
  This is especially bad when it's null, but it's pretty bad when it's nil
  because it's not clear to the consumer of the API that there can be a "call
@@ -1340,6 +1487,8 @@ Further, null/nil are passed around as failures.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 In Java, 
 \family typewriter
 null
@@ -1385,6 +1534,8 @@ target "http://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mi
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Ruby has 
 \family typewriter
 nil
@@ -1444,10 +1595,14 @@ null
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Scala does something different.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 There's an abstract class, called 
 \family typewriter
 Option
@@ -1495,6 +1650,8 @@ Some
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 lstparams "language=scala"
 inline false
@@ -1541,6 +1698,8 @@ def findUser(name: String): Option[User] = {
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Some, you've got a 
 \family typewriter
 findUser
@@ -1559,6 +1718,8 @@ None
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 A really nice thing in Scala (yes, Ruby has this too) is rich list operations.
  Rather than creating a counter and pulling list (array) elements out one
  by one, you write a little function and pass that function to the list.
@@ -1568,6 +1729,8 @@ A really nice thing in Scala (yes, Ruby has this too) is rich list operations.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -1588,12 +1751,16 @@ line0: scala.List[scala.Int] = List(2,4,6)
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The above code multiplies each list item by two and "map" returns the resulting
  list.
  Oh, and you can be more terse, if you want:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -1614,6 +1781,8 @@ You can nest map operations:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -1635,10 +1804,14 @@ line13: scala.List[scala.List[scala.Int]] = List(List(4,5,6),List(8,10,12),List(
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 And, you can "flatten" the inner list:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -1659,6 +1832,8 @@ Finally, you can "filter" only the even numbers from the first list:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -1693,6 +1868,8 @@ filter
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -1723,6 +1900,8 @@ res0: List[Int] = List(8, 10, 12)
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Okay, but what does this have to do with 
 \family typewriter
 Option[T]
@@ -1731,6 +1910,8 @@ Option[T]
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Turns out that 
 \family typewriter
 Option
@@ -1758,11 +1939,15 @@ filter
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 So, the cool thing is that you can use this construct very effectively.
  The first example is simple:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -1783,14 +1968,20 @@ res1: Option[Int] = Some(12)
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 "That's nice, you just wrote a lot of code to multiply 3 by 4."
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Let's see what happens if we have a "None" in there:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -1821,6 +2012,8 @@ res3: Option[Int] = None
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 So, we get a "
 \family typewriter
 None
@@ -1830,6 +2023,8 @@ None
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -1850,6 +2045,8 @@ res4: Int = -1
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -1870,6 +2067,8 @@ res5: Int = 12
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Note that the "
 \family typewriter
 getOrElse
@@ -1879,6 +2078,8 @@ getOrElse
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift has an analogous construct called 
 \family typewriter
 Box
@@ -1887,6 +2088,8 @@ Box
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 A 
 \family typewriter
 Box
@@ -1927,6 +2130,7 @@ Box
 \begin_layout Standard
 
 \family typewriter
+\lang english
 Failure
 \family default
  is very helpful because you can carry around information to display an
@@ -1935,10 +2139,14 @@ Failure
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 In Lift, I put this all together in the following way:
 \end_layout
 
 \begin_layout Itemize
+
+\lang english
 methods that return request parameters return 
 \family typewriter
 Box[String]
@@ -1947,6 +2155,8 @@ Box[String]
 \end_layout
 
 \begin_layout Itemize
+
+\lang english
 finder methods on models (not find all, just the ones that return a single
  instance) return 
 \family typewriter
@@ -1954,6 +2164,8 @@ Box[Model]
 \end_layout
 
 \begin_layout Itemize
+
+\lang english
 any method that would have returned a null if I was writing in Java returns
  a 
 \family typewriter
@@ -1963,10 +2175,14 @@ Box[T]
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 That means you get code that looks like:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -1998,6 +2214,8 @@ res6: net.liftweb.common.Box[scala.xml.Elem] = Failure(id param missing,Empty,Em
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 There's no explicit guard/test to see if the "
 \family typewriter
 id
@@ -2007,16 +2225,22 @@ id
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Note also that this code is completely type-safe.
  While there was no explicit type declarations, the compiler was able to
  figure out what types the various objects were.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 So, let's look at the code inside a REST handler:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -2062,6 +2286,8 @@ serve {
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 If the 
 \family typewriter
 id
@@ -2073,10 +2299,14 @@ id
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Here's what it looks like using wget:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 lstparams "language=bash"
 inline false
@@ -2227,6 +2457,8 @@ dpp@bison:~/lift_sbt_prototype$ cat info.xml
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 One more thing about 
 \family typewriter
 Box
@@ -2245,6 +2477,8 @@ Option
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 I hope this is an understandable introduction to Scala's 
 \family typewriter
 Option
@@ -2253,6 +2487,8 @@ Option
 \end_layout
 
 \begin_layout Section
+
+\lang english
 S/SHtml
 \begin_inset CommandInset label
 LatexCommand label
@@ -2264,6 +2500,8 @@ name "sec:S/SHtml"
 \end_layout
 
 \begin_layout Section
+
+\lang english
 Boot
 \begin_inset CommandInset label
 LatexCommand label
@@ -2275,6 +2513,8 @@ name "sec:Boot"
 \end_layout
 
 \begin_layout Section
+
+\lang english
 SiteMap
 \begin_inset CommandInset label
 LatexCommand label
@@ -2286,6 +2526,8 @@ name "sec:SiteMap"
 \end_layout
 
 \begin_layout Section
+
+\lang english
 GUIDs
 \begin_inset CommandInset label
 LatexCommand label
@@ -2297,6 +2539,8 @@ name "sec:GUIDs"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 A core concept in Lift is GUIDs.
  GUIDs are globally unique identifiers used to associate something in the
  browser with a function on the server.
@@ -2307,14 +2551,20 @@ A core concept in Lift is GUIDs.
 \end_layout
 
 \begin_layout Subsection
+
+\lang english
 How GUIDs are generated
 \end_layout
 
 \begin_layout Subsection
+
+\lang english
 Where they are used 
 \end_layout
 
 \begin_layout Section
+
+\lang english
 LiftRules
 \begin_inset CommandInset label
 LatexCommand label
@@ -2326,6 +2576,8 @@ name "sec:LiftRules"
 \end_layout
 
 \begin_layout Section
+
+\lang english
 SessionVars and RequestVars
 \begin_inset CommandInset label
 LatexCommand label
@@ -2337,6 +2589,8 @@ name "sec:SessionVars-and-RequestVars"
 \end_layout
 
 \begin_layout Section
+
+\lang english
 Helpers
 \begin_inset CommandInset label
 LatexCommand label
@@ -2348,6 +2602,8 @@ name "sec:Helpers"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand include
 filename "chapters/css_selector_transforms.lyx"
@@ -2358,6 +2614,8 @@ filename "chapters/css_selector_transforms.lyx"
 \end_layout
 
 \begin_layout Section
+
+\lang english
 Client-side behavior invoking server-side functions
 \begin_inset CommandInset label
 LatexCommand label
@@ -2369,6 +2627,8 @@ name "sec:Client-side-behavior-invoking"
 \end_layout
 
 \begin_layout Section
+
+\lang english
 Ajax
 \begin_inset CommandInset label
 LatexCommand label
@@ -2380,6 +2640,8 @@ name "sec:Ajax"
 \end_layout
 
 \begin_layout Section
+
+\lang english
 Comet
 \begin_inset CommandInset label
 LatexCommand label
@@ -2391,6 +2653,8 @@ name "sec:Comet"
 \end_layout
 
 \begin_layout Section
+
+\lang english
 LiftActor
 \begin_inset CommandInset label
 LatexCommand label
@@ -2402,6 +2666,8 @@ name "sec:LiftActor"
 \end_layout
 
 \begin_layout Section
+
+\lang english
 Pattern Matching
 \begin_inset CommandInset label
 LatexCommand label
@@ -2413,6 +2679,8 @@ name "sec:Pattern-Matching"
 \end_layout
 
 \begin_layout Section
+
+\lang english
 Type safety
 \begin_inset CommandInset label
 LatexCommand label
@@ -2424,6 +2692,8 @@ name "sec:Type-safety"
 \end_layout
 
 \begin_layout Section
+
+\lang english
 Page rewriting
 \begin_inset CommandInset label
 LatexCommand label
@@ -2435,6 +2705,8 @@ name "sec:Page-rewriting"
 \end_layout
 
 \begin_layout Section
+
+\lang english
 Security
 \begin_inset CommandInset label
 LatexCommand label
@@ -2446,10 +2718,14 @@ name "sec:Security"
 \end_layout
 
 \begin_layout Chapter
+
+\lang english
 Common Patterns
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand include
 filename "localization.lyx"
@@ -2464,6 +2740,8 @@ filename "localization.lyx"
 \end_layout
 
 \begin_layout Section
+
+\lang english
 Dependency Injection
 \begin_inset CommandInset label
 LatexCommand label
@@ -2475,6 +2753,8 @@ name "sec:Dependency-Injection"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Dependency injection is an important topic in the Java world.
  It's important because Java lacks certain basic features (e.g., functions)
  that tend to bind abstract interfaces to concrete implementations.
@@ -2487,6 +2767,8 @@ MyInterface thing = new MyInterfaceImpl()
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Scala's 
 \begin_inset CommandInset href
 LatexCommand href
@@ -2509,6 +2791,8 @@ target "http://jonasboner.com/2008/10/06/real-world-scala-dependency-injection-d
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The cake pattern only goes half way to giving a Java developer complete
  dependency injection functionality.
  The cake pattern allows you to compose the complex classes out of Scala
@@ -2520,10 +2804,14 @@ The cake pattern only goes half way to giving a Java developer complete
 \end_layout
 
 \begin_layout Subsection
+
+\lang english
 Lift Libraries and Injector
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift is both a web framework and a set of Scala libraries.
  Lift's 
 \family typewriter
@@ -2549,6 +2837,8 @@ on.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift's 
 \family typewriter
 Injector
@@ -2557,6 +2847,8 @@ Injector
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -2597,10 +2889,14 @@ trait Injector {
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 You can use this trait as follows: 
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -2625,6 +2921,8 @@ val myThing: Box[Thing] = MyInjector.inject
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The reason that the instance of 
 \family typewriter
 MyThing
@@ -2654,6 +2952,8 @@ SimpleInjector
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -2698,6 +2998,8 @@ val myThing: Box[Thing] = MyInjector.inject
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 This isn't bad...
  it allows us to define a function that makes the injection-time decision,
  and we can change the function out during runtime (or test-time.) However,
@@ -2714,6 +3016,8 @@ SimpleInjector
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -2770,6 +3074,7 @@ myThing = MyInjector.thing.vend // vend an instance of Thing
 \begin_layout Standard
 
 \family typewriter
+\lang english
 Inject
 \family default
  has a futher trick up its sleave...
@@ -2783,6 +3088,8 @@ Inject
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -2823,6 +3130,8 @@ MyInjector.thing.default.set(() => new Thing with YetAnotherThing {}) // set
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Within the scope of the 
 \family typewriter
 doWith
@@ -2844,15 +3153,21 @@ SpecialThing
 \end_layout
 
 \begin_layout Subsection
+
+\lang english
 Lift WebKit and enhanced injection scoping 
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift's WebKit offers broad ranging tools for handling HTTP requests as well
  as HTML manipulation.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift WebKit's 
 \family typewriter
 Factory
@@ -2866,6 +3181,8 @@ SimpleInjector
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -2929,6 +3246,8 @@ MyInjector.thing.request.set(new Thing with ThingForRequest {}) // set the
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 WebKit's 
 \family typewriter
 LiftRules
@@ -2950,6 +3269,8 @@ FactoryMakers
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -2966,11 +3287,15 @@ LiftRules.convertToEntity.doWith(true) { ...
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Or based on the current request (for example you can change the rules for
  calculating the docType during the current request):
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -2987,11 +3312,15 @@ le))
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Or based on the current session (for example, changing maxConcurrentRequests
  based on some rules when a session is created):
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -3013,10 +3342,14 @@ if (browserIsSomethingElse) LiftRules.maxConcurrentRequests.session.set((r:
 \end_layout
 
 \begin_layout Subsection
+
+\lang english
 Conclusion 
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift's 
 \family typewriter
 SimpleInjector
@@ -3033,10 +3366,14 @@ Factory
 \end_layout
 
 \begin_layout Section
+
+\lang english
 Modules
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift has supported modules from the first version of the project in 2007.
  Lift's entire handling of the HTTP request/response cycle is open to hooks.
  Further, Lift's templating mechanism where resulting HTML pages are composed
@@ -3078,6 +3415,8 @@ LiftRules
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The most difficult issue relating to integration of external modules into
  Lift is how to properly insert the module's menu items into a SiteMap (See
  
@@ -3108,6 +3447,8 @@ SiteMap
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -3198,6 +3539,8 @@ final case object AddUserMenusUnder extends Loc.LocParam[Any]
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The module also makes a 
 \family typewriter
 SiteMap
@@ -3219,10 +3562,14 @@ SiteMap => SiteMap
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The application can add the marker to the appropriate menu item:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -3238,6 +3585,8 @@ Menu("Home") / "index" >> User.AddUserMenusAfter
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 And when the application registers the 
 \family typewriter
 SiteMap
@@ -3250,6 +3599,8 @@ LiftRules
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -3265,10 +3616,14 @@ LiftRules.setSiteMapFunc(() => User.sitemapMutator(sitemap()))
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Because the mutators are composable:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -3289,10 +3644,14 @@ LiftRules.setSiteMapFunc(() => allMutators(sitemap()))
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 For each module, the implementation of the mutators is pretty simple:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -3364,6 +3723,8 @@ status open
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 We've defined some extractors that help with pattern matching.
  
 \family typewriter
@@ -3388,6 +3749,8 @@ SiteMap
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand include
 filename "htmlproperties.lyx"
@@ -3398,10 +3761,14 @@ filename "htmlproperties.lyx"
 \end_layout
 
 \begin_layout Chapter
+
+\lang english
 Built-in Snippets
 \end_layout
 
 \begin_layout Section
+
+\lang english
 CSS
 \begin_inset CommandInset label
 LatexCommand label
@@ -3413,6 +3780,8 @@ name "sec:CSS"
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Msgs"
@@ -3423,6 +3792,8 @@ Msgs
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Msg"
@@ -3433,6 +3804,8 @@ Msg
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Menu"
@@ -3443,6 +3816,8 @@ Menu
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:A"
@@ -3453,6 +3828,8 @@ A
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Children"
@@ -3463,6 +3840,8 @@ Children
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:CometSnippet"
@@ -3473,6 +3852,8 @@ Comet
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Form"
@@ -3483,6 +3864,8 @@ Form
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Ignore"
@@ -3493,6 +3876,8 @@ Ignore
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Loc"
@@ -3503,6 +3888,8 @@ Loc
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Surround"
@@ -3513,6 +3900,8 @@ Surround
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:TestCond"
@@ -3523,6 +3912,8 @@ TestCond
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Embed"
@@ -3533,6 +3924,8 @@ Embed
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Tail"
@@ -3543,6 +3936,8 @@ Tail
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:WithParam"
@@ -3553,6 +3948,8 @@ WithParam
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:VersionInfo"
@@ -3563,6 +3960,8 @@ VersionInfo
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:SkipDocType"
@@ -3573,6 +3972,8 @@ SkipDocType
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:XmlGroup"
@@ -3583,6 +3984,8 @@ XmlGroup
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:LazyLoad"
@@ -3593,6 +3996,8 @@ LazyLoad
 \end_layout
 
 \begin_layout Section
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:WithResourceId"
@@ -3603,10 +4008,14 @@ WithResourceId
 \end_layout
 
 \begin_layout Chapter
+
+\lang english
 SiteMap
 \end_layout
 
 \begin_layout Chapter
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "cha:REST"
@@ -3617,10 +4026,14 @@ REST
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift makes providing REST-style web services very simple.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 First, create an object that extends 
 \family typewriter
 RestHelper
@@ -3629,6 +4042,8 @@ RestHelper
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -3668,6 +4083,8 @@ object MyRest extends RestHelper {
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 And hook your changes up to Lift in 
 \family typewriter
 Boot.scala
@@ -3676,6 +4093,8 @@ Boot.scala
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -3698,10 +4117,14 @@ LiftRules.statelessDispatchTable.append(MyRest) // stateless -- no session
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Within your MyRest object, you can define which URLs to serve:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -3733,6 +4156,8 @@ serve {
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The above code uses the suffix of the request to determine the response
  type.
  Lift supports testing the 
@@ -3743,6 +4168,8 @@ Accept
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -3773,10 +4200,14 @@ serve {
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The above can also be written:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -3807,6 +4238,8 @@ serve {
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Note: If you want to navigate your Web Service, you must remember to add
  a 
 \family typewriter
@@ -3828,12 +4261,16 @@ http://localhost:8080/XXX/api/static/call.xml
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Because the REST dispatch code is based on Scala’s pattern matching, we
  can extract elements from the request (in this case the third element will
  be extracted into the id variable which is a String:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -3867,6 +4304,8 @@ And with extractors, we convert an element to a particular type and only
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -3897,10 +4336,14 @@ serve {
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 In the above example, id is extracted if it can be converted to a Long.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift’s REST helper can also extract 
 \family typewriter
 XML
@@ -3921,6 +4364,8 @@ PUT
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -3967,6 +4412,8 @@ AST.JValue
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 There may be cases when you want to have a single piece of business logic
  to calculate a value, but then convert the value to a result based on the
  request type.
@@ -3991,6 +4438,8 @@ Convertable
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -4021,6 +4470,8 @@ trait Convertable {
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Then define a pattern that will convert from a 
 \family typewriter
 Convertable
@@ -4037,11 +4488,15 @@ XML
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 implicit def cvt: JxCvtPF[Convertable] = { case (JsonSelect, c, _) => c.toJson
  case (XmlSelect, c, _) => c.toXml } 
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 And anywhere you use 
 \family typewriter
 serveJx
@@ -4058,6 +4513,8 @@ cvt
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -4083,10 +4540,14 @@ serveJx {
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Or:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -4191,6 +4652,8 @@ serveJx {
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 In the above example, if the 
 \family typewriter
 firstname
@@ -4206,10 +4669,14 @@ lastname
 \end_layout
 
 \begin_layout Chapter
+
+\lang english
 MVC (If you really want it)
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand include
 filename "samples/from_mvc/from_mvc.lyx"
@@ -4220,10 +4687,14 @@ filename "samples/from_mvc/from_mvc.lyx"
 \end_layout
 
 \begin_layout Part
+
+\lang english
 Recipes
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand include
 filename "chapters/Recipes.lyx"
@@ -4234,6 +4705,8 @@ filename "chapters/Recipes.lyx"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand include
 filename "chapters/Recipes2.lyx"
@@ -4244,14 +4717,20 @@ filename "chapters/Recipes2.lyx"
 \end_layout
 
 \begin_layout Chapter
+
+\lang english
 Embedding JavaScript in an HTML page
 \end_layout
 
 \begin_layout Section
+
+\lang english
 Problem
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 What am I doing wrong? I'm trying to output a javascript object into the
  page (so my front end guy can do some stuff with the data without parsing
  it out of elements by id) but it's replacing all the double quotes with
@@ -4264,6 +4743,8 @@ What am I doing wrong? I'm trying to output a javascript object into the
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 I've copied the example from 
 \noun on
 Exploring Lift
@@ -4272,6 +4753,8 @@ Exploring Lift
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -4312,10 +4795,14 @@ status open
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Becomes:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 lstparams "language=xml"
 inline false
@@ -4362,19 +4849,27 @@ status open
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 I've noticed that if what I'm outputting is a number rather than a string
  then it's fine.
 \end_layout
 
 \begin_layout Section
+
+\lang english
 Solution
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Try:
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 inline false
 status open
@@ -4421,6 +4916,7 @@ status open
 \begin_layout Standard
 
 \family typewriter
+\lang english
 JsExp
 \family default
  are also 
@@ -4436,6 +4932,8 @@ Script()
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset listings
 lstparams "language=xml"
 inline false
@@ -4472,10 +4970,14 @@ status open
 \end_layout
 
 \begin_layout Part
+
+\lang english
 Questions and Answers
 \end_layout
 
 \begin_layout Chapter
+
+\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "cha:Scaling"
@@ -4486,6 +4988,8 @@ Scaling
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift is a web framework built on the Scala programming language.
  Lift takes advantage of many of Scala's features that allow developers
  to very concisely code secure, scalable, highly interactive web applications.
@@ -4581,6 +5085,8 @@ Lift is a web framework built on the Scala programming language.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Security.
  The Internet is a dangerous place and no request that is received from
  the Internet can be trusted.
@@ -4726,6 +5232,8 @@ Security.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The downside to Lift's session affinity requirement mainly falls on the
  operations team.
  They must use a session aware load balancer or other mechanism to route
@@ -4742,6 +5250,8 @@ The downside to Lift's session affinity requirement mainly falls on the
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Compared to the operational cost of a session aware load balancer, there
  are many costs associated with migratory sessions.
  First, there must be a persistence mechanism for those sessions.
@@ -4759,6 +5269,8 @@ Compared to the operational cost of a session aware load balancer, there
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Session serialization can cause session information loss in the case of
  multiple requests being executed in multiple processes.
  It's common to have multiple tabs/windows open to the same application.
@@ -4771,6 +5283,8 @@ n because reproducing this kind of problem is non-trivial and this kind
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The third issue with migratory sessions and session serialization is that
  the inability to store complex information in the session (e.g., a function
  that closes over scope) means that the developer has to write imperative
@@ -4781,6 +5295,8 @@ The third issue with migratory sessions and session serialization is that
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 The operational costs of supporting session affinity are not materially
  different from the operational costs of providing backing store for migratory
  sessions.
@@ -4789,6 +5305,8 @@ The operational costs of supporting session affinity are not materially
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift's use of GUIDs associated with functions on the server: Increase the
  security of the application by guarding against cross site request forgeries,
  replay attacks, and insecure object references Decrease application development
@@ -4818,20 +5336,28 @@ on The positive attributes of Lift's design decisions are evident at Foursquare
 \end_layout
 
 \begin_layout Chapter
+
+\lang english
 How Lift does function/GUID mapping
 \end_layout
 
 \begin_layout Chapter
+
+\lang english
 How Lift does Comet
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 I can speak to Lift's Comet Architecture which was selected by Novell to
  power their Pulse product after they evaluated a number of different technologi
 es.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift's Comet implementation uses a single HTTP connection to poll for changes
  to an arbitrary number of components on the page.
  Each component has a version number.
@@ -4846,6 +5372,8 @@ Lift's Comet implementation uses a single HTTP connection to poll for changes
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift integrates long polling with session management so that if a second
  request comes into the same URL during a long poll, the long poll is terminated
  to avoid connection starvation (most browsers have a maximum of 2 HTTP
@@ -4857,12 +5385,16 @@ Lift integrates long polling with session management so that if a second
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift dynamically detects the container the Servlet is running in and on
  Jetty 6 & 7 and (soon) Glassfish, Lift will use the platform's "continuations"
  implementation to avoid using a thread during the long poll.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 Lift's JavaScript can sit on top of jQuery and YUI (and could sit on top
  of Prototype/Scriptaculous as well.) The actual polling code includes back-off
  on connection failures and other "graceful" ways of dealing with transient
@@ -4870,12 +5402,16 @@ Lift's JavaScript can sit on top of jQuery and YUI (and could sit on top
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 I've looked at Atmosphere and CometD (both JVM-oriented Comet technologies).
  Neither had (at the time I evaluated them) support for multiple components
  per page or connection starvation avoidance.
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand include
 filename "chapters/advanced_concepts.lyx"
@@ -4886,14 +5422,20 @@ filename "chapters/advanced_concepts.lyx"
 \end_layout
 
 \begin_layout Part
+
+\lang english
 Misc
 \end_layout
 
 \begin_layout Chapter
+
+\lang english
 Releases
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand include
 filename "chapters/2_2-RC1.lyx"
@@ -4904,6 +5446,8 @@ filename "chapters/2_2-RC1.lyx"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset include
 LatexCommand include
 filename "chapters/2_2-final.lyx"
@@ -4914,6 +5458,8 @@ filename "chapters/2_2-final.lyx"
 \end_layout
 
 \begin_layout Standard
+
+\lang english
 \begin_inset CommandInset index_print
 LatexCommand printindex
 type "idx"
