@@ -1,5 +1,5 @@
-#LyX 1.6.9 created this file. For more info see http://www.lyx.org/
-\lyxformat 345
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
 \begin_document
 \begin_header
 \textclass book
@@ -54,18 +54,26 @@ theorems-ams
 eqs-within-sections
 figs-within-sections
 \end_modules
+\maintain_unincluded_children false
 \language english
+\language_package default
 \inputencoding auto
+\fontencoding global
 \font_roman palatino
 \font_sans default
 \font_typewriter courier
 \font_default_family default
+\use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
 \paperfontsize 11
 \spacing single
 \use_hyperref true
@@ -85,9 +93,18 @@ figs-within-sections
 \use_geometry true
 \use_amsmath 1
 \use_esint 1
+\use_mhchem 1
+\use_mathdots 1
 \cite_engine basic
 \use_bibtopic false
+\use_indices false
 \paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
 \leftmargin 1in
 \topmargin 1in
 \rightmargin 1in
@@ -102,8 +119,9 @@ figs-within-sections
 \paperpagestyle headings
 \tracking_changes false
 \output_changes false
-\author "" 
-\author "" 
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
 \end_header
 
 \begin_body
@@ -320,7 +338,7 @@ target "http://exploring.liftweb.net/"
 Lift is different from most web frameworks and it's likely that Lift's differenc
 es will present a challenge and a friction if you are familiar with the
  MVC
-\begin_inset Index
+\begin_inset Index idx
 status open
 
 \begin_layout Plain Layout
@@ -676,7 +694,7 @@ lowPriority
  method defines how to process incoming messages.
  In this case, we're Pattern Matching (see 
 \begin_inset CommandInset ref
-LatexCommand prettyref
+LatexCommand formatted
 reference "sec:Pattern-Matching"
 
 \end_inset
@@ -701,7 +719,7 @@ render
 \family default
  the component by defining the CSS to match and the replacement (See 
 \begin_inset CommandInset ref
-LatexCommand prettyref
+LatexCommand formatted
 reference "sec:CSS-Selector-Transforms"
 
 \end_inset
@@ -867,7 +885,7 @@ form.ajax
 \family default
  snippet turns a form into an Ajax (see 
 \begin_inset CommandInset ref
-LatexCommand prettyref
+LatexCommand formatted
 reference "sec:Ajax"
 
 \end_inset
@@ -904,7 +922,7 @@ ChatIn
 \family default
  snippet (See 
 \begin_inset CommandInset ref
-LatexCommand prettyref
+LatexCommand formatted
 reference "sec:Snippets"
 
 \end_inset
@@ -1015,7 +1033,7 @@ The next thing that's missing is routing and controllers and other stuff
  In our application, we associated behavior with display and Lift took care
  of the rest (see 
 \begin_inset CommandInset ref
-LatexCommand prettyref
+LatexCommand formatted
 reference "sec:Page-rewriting"
 
 \end_inset
@@ -1029,7 +1047,7 @@ We didn't do anything to explicitly to avoid cross-site scripting in our
  Because Lift takes advantage of Scala's strong typing and type safety (see
  
 \begin_inset CommandInset ref
-LatexCommand prettyref
+LatexCommand formatted
 reference "sec:Type-safety"
 
 \end_inset
@@ -1039,7 +1057,7 @@ reference "sec:Type-safety"
  By default, Lift applications are resistant to many of the OWASP top 10
  security vulnerabilities (see 
 \begin_inset CommandInset ref
-LatexCommand prettyref
+LatexCommand formatted
 reference "sec:Security"
 
 \end_inset
@@ -2893,7 +2911,7 @@ Lift has supported modules from the first version of the project in 2007.
  Further, Lift's templating mechanism where resulting HTML pages are composed
  by transforming page content via snippets (See 
 \begin_inset CommandInset ref
-LatexCommand prettyref
+LatexCommand formatted
 reference "sec:Snippets"
 
 \end_inset
@@ -2906,7 +2924,7 @@ NodeSeq => NodeSeq
  Because Lift's snippet resolution mechanism is open and any code referenced
  in Boot (See 
 \begin_inset CommandInset ref
-LatexCommand prettyref
+LatexCommand formatted
 reference "sec:Boot"
 
 \end_inset
@@ -2933,7 +2951,7 @@ The most difficult issue relating to integration of external modules into
  Lift is how to properly insert the module's menu items into a SiteMap (See
  
 \begin_inset CommandInset ref
-LatexCommand prettyref
+LatexCommand formatted
 reference "sec:SiteMap-1"
 
 \end_inset
@@ -4767,6 +4785,7 @@ filename "chapters/2_2-final.lyx"
 \begin_layout Standard
 \begin_inset CommandInset index_print
 LatexCommand printindex
+type "idx"
 
 \end_inset
 
