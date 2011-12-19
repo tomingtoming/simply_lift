@@ -526,7 +526,36 @@ This includes Ruby on Rails, Struts, Java Server Faces, Django, TurboGears,
 \end_layout
 
 \begin_layout Standard
-Liftは他の多くのＷＥＢフレームワークとは異なります。
+Liftは他の多くのＷＥＢフレームワークとは異なります。もしあなたがMVC
+\lang english
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+MVC
+\end_layout
+
+\end_inset
+
+によるフレームワーク
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+ここでは Ruby on Rails, Struts, Java Server Faces, Django, TurboGears 等を含みます
+\end_layout
+
+\end_inset
+
+に慣れ親しんでいるなら、その違いに抵抗を感じるかもしれません。しかしLiftのその違いは、あなたがインタラクティブなアプリケーションを作成する為に強力な力となる
+でしょう。Liftの違いはより簡潔なＷＥＢアプリケーションへ導きます。Liftの違いはよりセキュアでスケーラブルなアプリケーションをもたらします。Liftの違い
+はあなたに高い生産性を与え、将来あなたや他の誰でも簡単に保守できるようなアプリケーションを作成できるでしょう。どうかリラックスしてこの違いを理解するようにして下
+さい…。そしてあなたのＷＥＢアプリケーションを作成するのにLiftの機能をどう活かせるか見て行って下さい。
 \end_layout
 
 \begin_layout Standard
@@ -539,6 +568,12 @@ Lift creates abstractions that allow easier expression of business logic
  business logic patterns and the underlying protocol.
  The difference means that you spend more time thinking about your application
  and less time thinking about the plumbing.
+\end_layout
+
+\begin_layout Standard
+Liftは平易な表現でビジネスロジックを記述できるよう抽象化されていて、それをそのままHTTPやHTMLとしてマップできます。これはこれまでのＷＥＢフレームワー
+クにはないアプローチで、これまではHTTPとHTMLのトップに抽象的な表現を用いて、開発者が共通のビジネスロジックパターンと基本的なプロトコルをつないでいました
+。この違いが示しているのは、あなたは多くの時間をあなたのアプリケーションを考える事に費やして、その配管については少しの時間で済むという事です。
 \end_layout
 
 \begin_layout Standard
@@ -555,9 +590,14 @@ concept learner.
  I learn concepts and then apply them over and over again as situations
  come up.
  This book focuses a lot on the concepts.
- If you're a concept learner and like my stream on conciousness style, this
- book will likely suit you well.
+ If you're a concept learner and like my stream on consciousness style,
+ this book will likely suit you well.
  On the other hand, it may not.
+\end_layout
+
+\begin_layout Standard
+私は「概念学習者」です。私は概念を学び、そしてそれを何度も何度もこれまで使ってきました。この本では多くの概念を扱います。あなたが概念学習者で、私の意識の流れを書
+くスタイルが気に入るなら、この本はあなたに合うでしょう。そうでなければ合わないでしょう。
 \end_layout
 
 \begin_layout Standard
@@ -587,6 +627,35 @@ target "https://github.com/dpp/simply_lift"
 \end_layout
 
 \begin_layout Standard
+この本の最新バージョンがPDFこちら
+\lang english
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://simply.liftweb.net/Simply_Lift.pdf
+\end_layout
+
+\end_inset
+
+
+\lang japanese
+で利用可能です。この本のソースコードは
+\lang english
+
+\begin_inset CommandInset href
+LatexCommand href
+name "https://github.com/dpp/simply_lift"
+target "https://github.com/dpp/simply_lift"
+
+\end_inset
+
+にて利用可能です。
+\end_layout
+
+\begin_layout Standard
 
 \lang english
 If you've got questions, feedback, or improvements to this document, please
@@ -602,13 +671,27 @@ target "http://groups.google.com/group/liftweb"
 \end_layout
 
 \begin_layout Standard
+もしこの本について質問やフィードバックや改善点があるようでしたら、ぜひ
+\lang english
+
+\begin_inset CommandInset href
+LatexCommand href
+name "Lift Google Group"
+target "http://groups.google.com/group/liftweb"
+
+\end_inset
+
+での議論にご参加下さい。
+\end_layout
+
+\begin_layout Standard
 
 \lang english
 I'm a 
 \begin_inset Quotes eld
 \end_inset
 
-roll up your sleaves and get your hands dirty with code
+roll up your sleeves and get your hands dirty with code
 \begin_inset Quotes erd
 \end_inset
 
@@ -624,6 +707,13 @@ smack in the face
 \end_inset
 
  demonstration of how Lift is different.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+私は「袖をまくってコードで手を汚す」タイプの男です…。それでは、Liftでシンプルなチャットアプリを作りましょう。このアプリはLiftの基本機能のデモンストレー
+ションとなり、Liftが他のものとどう違っているか示す「ビンタ」のようなものになるでしょう。
 \end_layout
 
 \begin_layout Chapter
