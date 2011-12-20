@@ -726,6 +726,10 @@ name "cha:The-ubiquitous-Chat"
 \end_inset
 
 The ubiquitous Chat app
+\begin_inset Newline newline
+\end_inset
+
+ユビキタスなチャットアプリ
 \end_layout
 
 \begin_layout Standard
@@ -748,10 +752,27 @@ target "https://github.com/dpp/simply_lift/tree/master/chat"
 .
 \end_layout
 
+\begin_layout Standard
+
+\lang english
+Liftでマルチユーザのチャットアプリを作成する事はとてもシンプルに行う事ができ、なおかつLiftの基本概念の多くを見る事ができます。ここで扱うソースコードは
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/dpp/simply_lift/tree/master/chat"
+
+\end_inset
+
+にてダウンロード可能です。
+\end_layout
+
 \begin_layout Section
 
 \lang english
 The View
+\begin_inset Newline newline
+\end_inset
+
+View
 \end_layout
 
 \begin_layout Standard
@@ -760,6 +781,13 @@ The View
 When writing a Lift app, it's often best to start off with the user interface...
  build what the user will see and then add behavior to the HTML page.
  So, let's look at the Lift template that will make up our chat application.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Liftでアプリケーションを作成する際、大抵の場合ユーザインタフェースから書き始めるのが良い方法です…。HTMLでユーザが見る物を作成して、そこにその振る舞いを
+追加していきます。
 \end_layout
 
 \begin_layout Standard
@@ -802,6 +830,14 @@ chrome
 \end_inset
 
  around the content based on one or more chrome templates.
+\end_layout
+
+\begin_layout Standard
+これは有効なHTMLのページです。しかしそこには少しうさんくさいクラスの属性があります。最初は
+\family typewriter
+\lang english
+ <body class="lift:content_id=main"> です。このクラスはここでは「実際のこのコンテンツはid='main'の要素に含まれてい
+ますよ」という事を表しています。これによりとして有効なHTMLのままに動的な装飾を複数のテンプレートにより追加する事ができます。
 \end_layout
 
 \begin_layout Standard
