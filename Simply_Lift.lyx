@@ -755,7 +755,7 @@ target "https://github.com/dpp/simply_lift/tree/master/chat"
 \begin_layout Standard
 
 \lang english
-Liftでマルチユーザのチャットアプリを作成する事はとてもシンプルに行う事ができ、なおかつLiftの基本概念の多くを見る事ができます。ここで扱うソースコードは
+Liftではチャットアプリをとてもシンプルに作成できます。更にその中でLiftの基本概念の多くを学ぶ事ができます。ここで扱うソースコードは
 \begin_inset CommandInset href
 LatexCommand href
 target "https://github.com/dpp/simply_lift/tree/master/chat"
@@ -786,8 +786,8 @@ When writing a Lift app, it's often best to start off with the user interface...
 \begin_layout Standard
 
 \lang english
-Liftでアプリケーションを作成する際、大抵の場合ユーザインタフェースから書き始めるのが良い方法です…。HTMLでユーザが見る物を作成して、そこにその振る舞いを
-追加していきます。
+Liftでアプリケーションを作成する際、大抵の場合ユーザインタフェースから書き始めるのが良い方法です…。ユーザーが目にする部分をHTMLで先に書いてしまい、その
+上でそこへ振る舞いを追加していきます。それではチャットアプリを形作るLiftのテンプレートを見てみましょう。
 \end_layout
 
 \begin_layout Standard
@@ -833,11 +833,11 @@ chrome
 \end_layout
 
 \begin_layout Standard
-これは有効なHTMLのページです。しかしそこには少しうさんくさいクラスの属性があります。最初は
+このコードは単独で有効なHTMLのページです。しかしそこには少し見慣れないクラスの属性があります。まずは
 \family typewriter
 \lang english
- <body class="lift:content_id=main"> です。このクラスはここでは「実際のこのコンテンツはid='main'の要素に含まれてい
-ますよ」という事を表しています。これによりとして有効なHTMLのままに動的な装飾を複数のテンプレートにより追加する事ができます。
+ <body class="lift:content_id=main"> です。ここでは「この部分の実際のコンテンツはid='main'の要素に含まれています」
+という事を表しています。これにより、HTMLとして有効なページをテンプレートとしてとしたままで、動的な装飾を複数のテンプレートにより追加する事ができます。
 \end_layout
 
 \begin_layout Standard
